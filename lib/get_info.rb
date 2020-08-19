@@ -14,41 +14,39 @@ end
 #   category_link = link['href']
 #   puts company_name[9].content
 # end
-def company_name
+def lawyer_name
   conect_to_page.css('//div.row//div.info//div.pavadinimas_pirmumas//a', '//div.row//div.info//div.pavadinimas//a').each do |link|
-    # company_name = link.content
+    puts lawyer = link.content
+
   end
 end
 
 def working_time
   conect_to_page.css('//div.kontaktai//div.work-time-now').each do |link|
-    # working_time = link.content
-    # puts working_time
+    puts working_time = link.content
   end
 end
 
 def phone_number
   conect_to_page.css('//div.kontaktai//div.telefonas').each do |link|
-    # mobile_phone = link.content
-    # puts mobile_phone
+    puts mobile_phone = link.content
   end
 end
 
 def website_link
   conect_to_page.css('//div.kontaktai//div.tinklalapis//a').each do |link|
-    # website = link['href']
+    puts website = link['href']
   end
 end
 
-def address
+def lawyer_address
   conect_to_page.css('//div.kontaktai//span.adresas-nuoroda').each do |link|
-    # address = link.content
-    # puts address
+    puts address = link.content
   end
 end
 
-# puts company_name.text
-# puts working_time.text
-# puts phone_number.text
-# puts website_link.map {|element| element["href"]}
-# puts address.text
+lawyer_name
+working_time
+phone_number
+website_link
+lawyer_address
