@@ -44,6 +44,10 @@ The Scraper presents retrieved data to the user depended on their selection or r
 1. click the following link  [Scraper's link](https://repl.it/@visvaldeliss/scraper#main.rb)
 1. When the link has been opened, click the `green run button` you will see at the top to run the Scraper.
 
+## Demo Video
+
+Click the following link  [Scraper Video presentation link](https://www.loom.com/share/377fc1646c154ef1b7b01b2bb6d3405e)
+
   ## Built With
 
   - Ruby
