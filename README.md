@@ -46,7 +46,7 @@ The Scraper presents retrieved data to the user depended on their selection or r
 
 ## Demo Video
 
-Click the following link  [link](https://www.loom.com/share/377fc1646c154ef1b7b01b2bb6d3405e) to see Video presentation of the project.
+Click the following [link](https://www.loom.com/share/377fc1646c154ef1b7b01b2bb6d3405e) to see Video presentation of the project.
 
   ## Built With
 
