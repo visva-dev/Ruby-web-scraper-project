@@ -31,8 +31,16 @@ The Scraper presents retrieved data to the user depended on their selection or r
 1. Your computer should be able to run `terminal` or `command prompt` or `bash` or `Powershell` commands.
 
 #### Using a Repository
-1. Run this command `git clone https://github.com/visva-dev/Microverse-Ruby-Capstone.git` to clone the repository on to your local machine.
-1. Run the following command to deploy the scraper
+1. Run this command `git clone https://github.com/visva-dev/Microverse-Ruby-Capstone.git` in the desired folder to clone the repository on to your local machine.
+After cloning the project, you should cd into the directory where the code is stored & nevigate into bin older using `cd bin`
+
+1. Then run to following command install the necessary dependencies
+
+```bash
+    bundle install
+```
+
+1. And last command to run the scraper
 
 ```bash
     ruby bin/main.rb
