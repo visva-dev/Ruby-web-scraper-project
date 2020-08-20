@@ -21,22 +21,19 @@ class Launcher < GetInfo
     puts 'Which lawyers info you want to get? Write down one of these words:'
     puts 'names, working_time, numbers, websites, addressess or all to get all lawyers info'
     choose = gets.chomp
-    if choose == 'names'
-      lawyer_name
-    elsif choose == 'working_time'
+    case choose
+    when 'working_time'
       working_time
-    elsif choose == 'numbers'
-      phone_number
-    elsif choose == 'websites'
-      website_link
-    elsif choose == 'addressess'
-      lawyer_address
-    elsif choose == 'all'
+    when 'names'
       lawyer_name
-      working_time
+    when 'numbers'
       phone_number
+    when 'websites'
       website_link
+    when 'addressess'
       lawyer_address
+    when 'all'
+      all_lawyers
     end
   end
 end
