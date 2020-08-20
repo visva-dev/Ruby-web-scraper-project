@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 
 class GetInfo
+
   def conect_to_page
     Nokogiri::HTML(URI.open('https://www.info.lt/rubrika/Advokatai/100209472'))
   end
