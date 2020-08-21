@@ -7,7 +7,7 @@ end
 
 def lawyer_name
   conect_to_page.css('//div.row//div.info//div.pavadinimas_pirmumas//a',
-                      '//div.row//div.info//div.pavadinimas//a').each do |link|
+                     '//div.row//div.info//div.pavadinimas//a').each do |link|
     lawyer = link.content
     puts lawyer
   end
