@@ -57,7 +57,7 @@ After cloning the project, you should cd into the directory where the code is st
 Click the following [link](https://www.loom.com/share/377fc1646c154ef1b7b01b2bb6d3405e) to see Video presentation of the project.
 
   ## How to run Rspec tests:
-  > Open your terminal & run `rspec` program will run tests for this project.
+  > When you are in `Microverse-Ruby-Capstone` folder, open your terminal & run `rspec` program will run tests for this project.
 
   ## Built With
 
