@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 require_relative '../lib/get_info.rb'
 
-class Launcher < GetInfo
+class Launcher
   def initialize
     @run_program = true
   end
