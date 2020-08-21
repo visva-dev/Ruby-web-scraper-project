@@ -1,4 +1,3 @@
-
 require 'get_info'
 
 describe "conect_to_page" do
