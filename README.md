@@ -40,7 +40,7 @@ After cloning the project, you should cd into the directory where the code is st
     bundle install
 ```
 
-1. And last command to run the scraper
+3. And last command to run the scraper
 
 ```bash
     ruby bin/main.rb
@@ -55,6 +55,9 @@ After cloning the project, you should cd into the directory where the code is st
 ## Demo Video
 
 Click the following [link](https://www.loom.com/share/377fc1646c154ef1b7b01b2bb6d3405e) to see Video presentation of the project.
+
+  ## How to run Rspec tests:
+  > Open your terminal & run `rspec` program will run tests for this project.
 
   ## Built With
 
