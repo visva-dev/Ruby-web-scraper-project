@@ -33,6 +33,6 @@ class GetInformation
   end
 
   def self.show_links
-    links = website_link.map { |link| link['href'] }
+    website_link.map { |link| link['href'] }
   end
 end

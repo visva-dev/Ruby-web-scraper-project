@@ -20,46 +20,40 @@ def show_info
   choose = gets.chomp
   case choose
   when 'working_time'
-    puts "Work Times"
-    puts "========"
     puts GetInformation.working_time.text
   when 'names'
-    puts "Names"
-    puts "========"
     puts GetInformation.lawyer_name.text
   when 'numbers'
-    puts "Phone Numbers"
-    puts "========"
     puts GetInformation.phone_number.text
   when 'websites'
-    puts "Websites Links"
-    puts "========"
     puts GetInformation.show_links
   when 'addressess'
-    puts "Addresses"
-    puts "========"
     puts GetInformation.lawyer_address.text
   when 'all'
-    puts "Names"
-    puts "========"
-    puts GetInformation.lawyer_name.text
-    puts
-    puts "Work Times"
-    puts "========"
-    puts GetInformation.working_time.text
-    puts
-    puts "Phone Numbers"
-    puts "========"
-    puts GetInformation.phone_number.text
-    puts
-    puts "Websites Links"
-    puts "========"
-    puts GetInformation.show_links
-    puts
-    puts "Addresses"
-    puts "========"
-    puts GetInformation.lawyer_address.text
+    all_info
   end
+end
+
+def all_info
+  puts 'Names'
+  puts '========'
+  puts GetInformation.lawyer_name.text
+  puts
+  puts 'Work Times'
+  puts '========'
+  puts GetInformation.working_time.text
+  puts
+  puts 'Phone Numbers'
+  puts '========'
+  puts GetInformation.phone_number.text
+  puts
+  puts 'Websites Links'
+  puts '========'
+  puts GetInformation.show_links
+  puts
+  puts 'Addresses'
+  puts '========'
+  puts GetInformation.lawyer_address.text
 end
 
 hello
