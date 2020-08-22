@@ -1,4 +1,4 @@
-require 'get_info'
+require_relative '../lib/get_info'
 
 describe 'conect_to_page' do
   it 'Scrapes all the data from the page' do
