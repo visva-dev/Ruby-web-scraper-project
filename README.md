@@ -1,4 +1,4 @@
-# Microverse-Ruby-Capstone
+# Ruby web scraper project
 Web scraper project for Microverse Ruby Capstone
 
 ## Description
